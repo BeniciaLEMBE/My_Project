@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+	<title> Global Educ Web Site </title>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="acceuil.html"> <img src="PHOTOS/1629188595095-removebg-preview-removebg-preview.png"></a>
+			<div class ="nav-links" id="navLinks">   
+				<i class="fa fa-times" onclick="hideMenu()" ></i>
+			  <ul>
+			  	 <li> <a href="">HOME</a></li>
+			  	 <li> <a href="">ABOUT US</a></li>
+			    	 <li> <a href="">BLOG</a></li>
+			  	 <li> <a href="">CONTACT</a></li>
+			  	 <li> <a href="connexion.html">LOGIN</a></li>
+			  </ul>	
+				
+			</div>
+			<i class="fa fa-bars" onclick="ShowMenu()"></i>
+		</nav>
+	<div class="text-box"> 
+		<h1> Welcome To Global Educ</h1>
+        <p>It's not later to learn English, because better late than never,<br> Improve your english level with Global Educ</p>
+         <a href="" class="hero-btn"> Visit us to know more</a>
+
+
+	</div> 
+	</section>
+	<!-----------COURSE----------->
+     <section class="course">
+        <h1> Course we offer</h1>	
+        <p> Nous faisons des cours en Informatique, en Anglais et en Infographie</p>
+
+        <div class="row">
+          <div class="course-col">
+          	<h3> Anglais</h3>
+          	<p>Global Educ Ofrre des formations de qualités à des prix accéssibles,ne ratez surtout pas cette occasion, car mieux vaut tard que jamais , nous offrons des formations en anglais, informatique, en design	
+          	</p>
+          </div>
+
+          <div class="course-col">
+          	<h3> Informatique</h3>
+          	<p>Global Educ Ofrre des formations de qualités à des prix accéssibles,ne ratez surtout pas cette occasion, car mieux vaut tard que jamais , nous offrons des formations en anglais, informatique, en design	
+          	</p>
+          </div>
+
+          <div class="course-col">
+          	<h3> Infographie</h3>
+          	<p>Global Educ Ofrre des formations de qualités à des prix accéssibles,ne ratez surtout pas cette occasion, car mieux vaut tard que jamais , nous offrons de s formations en anglais, informatique, en design	
+          	</p>
+          </div>
+         
+        </div>
+
+
+     </section>
+   
+    <!-----------Javascript Part----------->
+	<script >
+		var navLinks = document.getElementById("navLinks");
+		function ShowMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+         }
+
+	</script>
+
+</body>
+</html>
